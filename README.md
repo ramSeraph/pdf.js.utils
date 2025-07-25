@@ -3,7 +3,7 @@ pdf.js.utils
 
 This creates a patched version of the browser at https://ramseraph.github.io/pdf.js.utils/  
 
-The patch add support to some new encryption algorithms form the latest version of pdf.js, it is aa hack.. breakages are expected.
+The patch adds support for some new encryption algorithms from the latest version of pdf.js, it is a hack.. breakages are expected.
 
 PDF Utilities
 
