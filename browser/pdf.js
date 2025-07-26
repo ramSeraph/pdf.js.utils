@@ -16610,7 +16610,7 @@ class PDF20 extends PDFBase {
       }
       const cipher = new AES128Cipher(k.subarray(0, 16));
       e = cipher.encrypt(k1, k.subarray(16, 32));
-      const remainder = Math.sumPrecise(e.slice(0, 16)) % 3;
+      const remainder = sumPrecise(e.slice(0, 16)) % 3;
       if (remainder === 0) {
         k = calculateSHA256(e, 0, e.length);
       } else if (remainder === 1) {
